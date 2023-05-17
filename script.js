@@ -31,7 +31,6 @@ function shuffleImages() {
   if (imageIndex == imageArray.length) {
     imageIndex = 0;
   }
-  console.log(imageIndex);
   const container = document.querySelector(".photo-container");
   let imgUnder = document.createElement("img");
   imgUnder.src = imageArray[imageIndex];
@@ -48,7 +47,6 @@ function nextImage() {
   if (imageIndex == imageArray.length) {
     imageIndex = 0;
   }
-  console.log(imageIndex);
   const container = document.querySelector(".photo-container");
   let imgUnder = document.createElement("img");
   imgUnder.src = imageArray[imageIndex];

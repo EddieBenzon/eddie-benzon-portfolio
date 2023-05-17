@@ -169,11 +169,13 @@ body {
 }
 .about-me {
   margin-top: 30px;
-  margin-bottom: 50px;
   width: 450px;
   font-family: "Dosis", sans-serif;
   color: rgb(59, 59, 59);
   animation: fadeIn 1s;
+}
+.about-me:last-child {
+  margin-bottom: 50px;
 }
 .about-me p {
   background-color: white;
